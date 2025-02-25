@@ -1,0 +1,6 @@
+nameFirst,nameMiddle,nameLast,nameInitials,sex,language,phoneNumber,email,loginName,salaryAmount,accountNumber,bankId,bankName
+John,,Doe,J.D,M,E,+1234567890,john.doe@example.com,jdoe,50000,12345678,87654321,Example Bank
+Jane,,Smith,J.S,F,E,+1234567891,jane.smith@example.com,jsmith,55000,23456789,76543210,Sample Bank
+Alice,,Johnson,A.J,F,E,+1234567892,alice.johnson@example.com,ajohnson,52000,34567890,65432109,Innovate Bank
+Bob,,Williams,B.W,M,E,+1234567893,bob.williams@example.com,bwilliams,58000,45678901,54321098,Tech Bank
+Eve,,Brown,E.B,F,E,+1234567894,eve.brown@example.com,ebrown,53000,56789012,43210987,Creative Bank

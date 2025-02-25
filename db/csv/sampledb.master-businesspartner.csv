@@ -1,0 +1,6 @@
+NODE_KEY,BP_ROLE,EMAIL_ADDRESS,PHONE_NUMBER,FAX_NUMBER,WEB_ADDRESS,BP_ID,COMPANY_NAME
+1,AA,john.doe@example.com,+1234567890,+1234567891,www.example.com,1001,Example Corp
+2,BB,jane.smith@example.com,+1234567892,+1234567893,www.example.org,1002,Sample Inc
+3,CC,alice.johnson@example.com,+1234567894,+1234567895,www.example.net,1003,Innovate LLC
+4,DD,bob.williams@example.com,+1234567896,+1234567897,www.example.biz,1004,Tech Solutions
+5,EE,eve.brown@example.com,+1234567898,+1234567899,www.example.co,1005,Creative Works

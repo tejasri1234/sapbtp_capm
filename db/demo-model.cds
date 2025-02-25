@@ -22,11 +22,11 @@ context master{
         CITY: String(44);
         POSTAL_CODE:String(44);
         STREET:String(44);
-        BBUILDING:String(44);
+        BUILDING:String(44);
         COUNTRY:String(44);
         ADDRESS_TYPE:String(44);
-        VAL_START: Date;
-        VAL_FROM:Date;
+        VAL_START_DATE: Date;
+        VAL_END_DATE:Date;
         LATITUDE:Decimal;
         LONGITUDE:Decimal;
         businesspartner:Association to one businesspartner on businesspartner.ADDRESS_GUID = $self;
@@ -57,16 +57,16 @@ context master{
         nameFirst : String(40);
         nameMiddle : String(40);
         nameLast : String(40);
+        nameInitials : String(32);
         sex : common.Gender;
         language : String(1);
-        phone_number : common.PhoneNumber;
+        phoneNumber : common.PhoneNumber;
         email : common.Email;
-        login_name : String(12);
-        Currency : Currency;
+        loginName : String(12);
         salaryAmount : common.AmountT;
-        account_number: String(16);
-        bankid : Int16;
-        baname : String(30);
+        accountNumber: String(16);
+        bankId : Int16;
+        bankName : String(30);
         
     }
 
