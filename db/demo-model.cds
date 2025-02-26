@@ -65,7 +65,7 @@ context master{
         loginName : String(12);
         salaryAmount : common.AmountT;
         accountNumber: String(16);
-        bankId : Int16;
+        bankId : String(80);
         bankName : String(30);
         
     }

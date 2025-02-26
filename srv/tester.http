@@ -1,0 +1,71 @@
+###Get the service document
+http://localhost:4004/odata/v4/CatalogService 
+
+###
+http://localhost:4004/odata/v4/CatalogService/$metadata
+
+###
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet
+
+###
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet?$top=2&$skip=2
+
+###
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet?$filter=salaryAmount ge 55000
+
+###
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet/$count
+
+###single record with key
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet/c1ee6fc2-60f9-4729-817a-2c791a87336d
+
+###get pos
+http://localhost:4004/odata/v4/CatalogService/POs
+
+###post
+POST http://localhost:4004/odata/v4/CatalogService/EmployeeSet
+Content-Type: application/json
+
+{
+  "@odata.context": "$metadata#EmployeeSet/$entity",
+
+  "nameFirst": "Ryan",
+  "nameMiddle": null,
+  "nameLast": "Gosling",
+  "nameInitials": "R.G",
+  "sex": "M",
+  "language": "E",
+  "phoneNumber": "+1234567888",
+  "email": "ryan.gosling@example.com",
+  "loginName": "rgosling",
+  "salaryAmount": 56000,
+  "accountNumber": "12345687",
+  "bankId": "87654321",
+  "bankName": "Example Bank"
+}
+
+### get
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet/e42108ad-fc05-4871-91e6-78fa81a9c145
+
+### patch
+PATCH http://localhost:4004/odata/v4/CatalogService/EmployeeSet/e42108ad-fc05-4871-91e6-78fa81a9c145
+Content-Type: application/json
+
+{
+    "salaryAmount" : 56500
+}
+
+###
+DELETE http://localhost:4004/odata/v4/CatalogService/EmployeeSet/e42108ad-fc05-4871-91e6-78fa81a9c145
+
+###
+POST http://localhost:4004/odata/v4/CatalogService/POs/1/boost
+Content-Type: application/json
+
+{}
+
+###
+http://localhost:4004/odata/v4/CatalogService/POs
+
+### calling function
+GET http://localhost:4004/odata/v4/CatalogService/POs/1/largestOrder()
