@@ -1,6 +1,11 @@
 NODE_KEY,BP_ROLE,EMAIL_ADDRESS,PHONE_NUMBER,FAX_NUMBER,WEB_ADDRESS,BP_ID,COMPANY_NAME
-1,AA,john.doe@example.com,+1234567890,+1234567891,www.example.com,1001,Example Corp
-2,BB,jane.smith@example.com,+1234567892,+1234567893,www.example.org,1002,Sample Inc
-3,CC,alice.johnson@example.com,+1234567894,+1234567895,www.example.net,1003,Innovate LLC
-4,DD,bob.williams@example.com,+1234567896,+1234567897,www.example.biz,1004,Tech Solutions
-5,EE,eve.brown@example.com,+1234567898,+1234567899,www.example.co,1005,Creative Works
+MID12345,MID67890,01,john.doe@example.com,+1234567890,1234567890,www.example.com,BP001,Example Corp
+MID12346,MID67891,02,jane.doe@example.com,+0987654321,0987654321,www.example.org,BP002,Example Ltd
+MID12347,MID67892,01,bob.smith@example.com,+1122334455,1122334455,www.example.net,BP003,Example Inc
+MID12348,MID67893,02,alice.jones@example.com,+5566778899,5566778899,www.example.biz,BP004,Example LLC
+MID12349,MID67894,01,charlie.brown@example.com,+6677889900,6677889900,www.example.co,BP005,Example GmbH
+MID12350,MID67895,02,david.johnson@example.com,+7788990011,7788990011,www.example.info,BP006,Example AG
+MID12351,MID67896,01,emma.wilson@example.com,+8899001122,8899001122,www.example.us,BP007,Example SA
+MID12352,MID67897,02,liam.martin@example.com,+9900112233,9900112233,www.example.uk,BP008,Example Pty
+MID12353,MID67898,01,olivia.brown@example.com,+0011223344,0011223344,www.example.au,BP009,Example Ltd
+MID12354,MID67899,02,noah.davis@example.com,+1122334455,1122334455,www.example.ca,BP010,Example Inc

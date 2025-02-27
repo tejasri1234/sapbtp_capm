@@ -6,12 +6,12 @@ using{sample.commons as common} from './commons';
 context master{
     entity businesspartner{
         Key NODE_KEY : common.Guide;
+        ADDRESS_GUID : Association to address;
         BP_ROLE: String(2);
         EMAIL_ADDRESS: String(105);
         PHONE_NUMBER:String(32);
         FAX_NUMBER : String(32);
         WEB_ADDRESS: String(44);
-        ADDRESS_GUID : Association to address;
         BP_ID: String(32);
         COMPANY_NAME: String(250);
 
@@ -63,6 +63,7 @@ context master{
         phoneNumber : common.PhoneNumber;
         email : common.Email;
         loginName : String(12);
+        CURRENCY : Currency;
         salaryAmount : common.AmountT;
         accountNumber: String(16);
         bankId : String(80);
