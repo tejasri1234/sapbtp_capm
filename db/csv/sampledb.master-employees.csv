@@ -1,11 +1,11 @@
 ID,nameFirst,nameMiddle,nameLast,nameInitials,sex,language,phoneNumber,email,loginName,CURRENCY_code,salaryAmount,accountNumber,bankId,bankName
-1,John,a,Doe,M,EN,+1234567890,john.doe@example.com,jdoe,INR,50000,1234567890123456,001,Example Bank
-2,Jane,a,Doe,F,EN,+0987654321,jane.doe@example.com,jdoe2,INR,60000,6543210987654321,002,Sample Bank
-3,Bob,s,Smith,M,EN,+1122334455,bob.smith@example.com,bsmith,INR,55000,1122334455667788,003,Test Bank
-4,Alice,s,Jones,F,EN,+5566778899,alice.jones@example.com,ajones,INR,65000,9988776655443322,004,Demo Bank
-5,Charlie,ds,Brown,M,EN,+6677889900,charlie.brown@example.com,cbrown,INR,70000,8877665544332211,005,Mock Bank
-6,David,mic,Johnson,M,EN,+7788990011,david.johnson@example.com,djohnson,INR,52000,1122334455667788,006,Example Bank
-7,Emma,milliom,Wilson,F,EN,+8899001122,emma.wilson@example.com,ewilson,INR,58000,2233445566778899,007,Sample Bank
-8,Liam,laks,Martin,M,EN,+9900112233,liam.martin@example.com,lmartin,INR,61000,3344556677889900,008,Test Bank
-9,Olivia,wdcw,Brown,F,EN,+0011223344,olivia.brown@example.com,obrown,INR,63000,4455667788990011,009,Demo Bank
-10,Noah,kdkd,Davis,M,EN,+1122334455,noah.davis@example.com,ndavis,INR,68000,5566778899001122,010,Mock Bank
+1,John,a,Doe,JD,M,EN,+1234567890,john.doe@example.com,jdoe,INR,50000,1234567890123456,001,Example Bank
+2,Jane,a,Doe,JADF,EN,+0987654321,jane.doe@example.com,jdoe2,INR,60000,6543210987654321,002,Sample Bank
+3,Bob,s,Smith,BS,M,EN,+1122334455,bob.smith@example.com,bsmith,INR,55000,1122334455667788,003,Test Bank
+4,Alice,s,Jones,AJ,F,EN,+5566778899,alice.jones@example.com,ajones,INR,65000,9988776655443322,004,Demo Bank
+5,Charlie,ds,Brown,CB,M,EN,+6677889900,charlie.brown@example.com,cbrown,INR,70000,8877665544332211,005,Mock Bank
+6,David,mic,Johnson,DJ,M,EN,+7788990011,david.johnson@example.com,djohnson,INR,52000,1122334455667788,006,Example Bank
+7,Emma,milliom,Wilson,EW,F,EN,+8899001122,emma.wilson@example.com,ewilson,INR,58000,2233445566778899,007,Sample Bank
+8,Liam,laks,Martin,LM,M,EN,+9900112233,liam.martin@example.com,lmartin,INR,61000,3344556677889900,008,Test Bank
+9,Olivia,wdcw,Brown,OB,F,EN,+0011223344,olivia.brown@example.com,obrown,INR,63000,4455667788990011,009,Demo Bank
+10,Noah,kdkd,Davis,ND,M,EN,+1122334455,noah.davis@example.com,ndavis,INR,68000,5566778899001122,010,Mock Bank

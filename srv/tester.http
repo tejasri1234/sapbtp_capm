@@ -69,3 +69,20 @@ http://localhost:4004/odata/v4/CatalogService/POs
 
 ### calling function
 GET http://localhost:4004/odata/v4/CatalogService/POs/1/largestOrder()
+
+###
+GET http://localhost:4004/odata/v4/CatalogService/BusinessPartnerSet/BP_ID
+
+###
+GET http://localhost:4004/odata/v4/CatalogService/EmployeeSet/1
+
+###
+PATCH http://localhost:4004/odata/v4/CatalogService/EmployeeSet/1
+Content-Type: application/json
+
+{
+  "salaryAmount" : 100000
+}
+
+###
+GET http://localhost:4004/odata/v4/MyService/ReadEmpsrv

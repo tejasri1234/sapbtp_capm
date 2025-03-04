@@ -1,6 +1,9 @@
+const { parse } = require("@sap/cds/lib/compile/etc/yaml");
+
 module.exports = cds.service.impl(async function(){
 
     const {POs} = this.entities;
+
     
     this.on('largestOrder',async(req) =>{
         console.log('aa gaya');

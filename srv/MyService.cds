@@ -1,8 +1,11 @@
-using { sample.cds } from '../db/CDSViews';
-
+using {  sample.cds } from '../db/CDSViews';
+using { sampledb.master } from '../db/demo-model';
 
 service MyService @(path: 'MyService'){
     function spiderman(name : String(20)) returns String;
-    entity ProductOrderSet as projection on cds.CDSViews.ProdctOrders;
-
+    entity ProductOrderSet as projection on cds.CDSViews.ProdctOrders{
+        *,
+        ProductOrders
+    };
+    entity ReadEmpsrv as projection on master.employees;
 }

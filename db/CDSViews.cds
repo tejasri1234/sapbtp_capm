@@ -4,7 +4,8 @@ using {sampledb.master,sampledb.transaction  } from './demo-model';
 
 context CDSViews{
     define view ![POWorklist] as 
-    select from transaction.purchaseorder{
+    select from transaction.purchaseorder
+    {
         key PO_ID as ![PurchaseOrderNo],
         key ITEMS.PO_ITEM_POS as ![Position],
         PARTNER_GUID.BP_ID as ![VendorId],
@@ -13,11 +14,8 @@ context CDSViews{
         ITEMS.NET_AMOUNT as ![NetAmount],
         ITEMS.TAX_AMOUNT as ![TaxAmount],
         case OVERALL_STATUS
-            when 'N' then 'New'
-            when 'D' then 'Delivered'
-            when 'P' then 'Pending'
-            when 'A' then 'Approved'
-            when 'X' then 'Rejected'
+            when 'Completed' then 'Done'
+            when 'Pending' then 'In Pending'
             end as ![Status],
         ITEMS.PRODUCT_GUIDE.DESCRIPTION as ![Product],
         PARTNER_GUID.ADDRESS_GUID.COUNTRY as ![Country]
@@ -79,10 +77,19 @@ context CDSViews{
             SUPPLIER_GUID.BP_ID as ![SupplierId],
             SUPPLIER_GUID.COMPANY_NAME as ![SupplierName],
             PO_ORDERS as ![ProductOrders]
-        }
-        
-    
+        };
 
+
+        // define view ![ProductAnalysis] as
+        // select from ProdctOrders{
+        //     ProductName,
+        //     Country,
+        //     round((sum(ProductOrders.GrossAmount),2)) as ![TotalPurchaseAmmount] : Decimal(10,2),
+        //     ProductOrders.Currency
+        // }group by ProductName, Country, ProductOrders.Currency
+
+        
 }
+        
 
 
