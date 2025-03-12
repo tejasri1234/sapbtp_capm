@@ -55,7 +55,7 @@ context CDSViews{
 
     define view ![ItemView] as
         select from transaction.poitems{
-            PARENT_KEY.PARTNER_GUID.NODE_KEY as ![VendorId],
+            key PARENT_KEY.PARTNER_GUID.NODE_KEY as ![VendorId],
             PRODUCT_GUIDE.NODE_KEY as ![ProductId],
             CURRENCY as ![Currency],
             GROSS_AMOUNT as ![GrssAmount],
@@ -76,17 +76,17 @@ context CDSViews{
             PRICE as ![Price],
             SUPPLIER_GUID.BP_ID as ![SupplierId],
             SUPPLIER_GUID.COMPANY_NAME as ![SupplierName],
-            PO_ORDERS as ![ProductOrders]
+            PO_ORDERS 
         };
 
 
-        // define view ![ProductAnalysis] as
-        // select from ProdctOrders{
-        //     ProductName,
-        //     Country,
-        //     round((sum(ProductOrders.GrossAmount),2)) as ![TotalPurchaseAmmount] : Decimal(10,2),
-        //     ProductOrders.Currency
-        // }group by ProductName, Country, ProductOrders.Currency
+    //      define view ![ProductAnalysis] as
+    //     select from ProdctOrders{
+    //         ProductName,
+    //         Country,
+    //         round((sum(ProductOrders.GrossAmount),2)) as ![TotalPurchaseAmmount] : Decimal(10,2),
+    //         ProductOrders.Currency
+    //   }group by ProductName, Country, ProductOrders.Currency
 
         
 }

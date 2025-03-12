@@ -86,3 +86,12 @@ Content-Type: application/json
 
 ###
 GET http://localhost:4004/odata/v4/MyService/ReadEmpsrv
+
+###
+GET http://localhost:4004/v2/odata/v4/CatalogService/POs
+
+###
+POST http://localhost:4004/odata/v4/CatalogService/POs/MID12347/boost 
+Content-Type: application/json
+
+{}

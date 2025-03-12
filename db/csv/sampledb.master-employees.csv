@@ -1,6 +1,6 @@
 ID,nameFirst,nameMiddle,nameLast,nameInitials,sex,language,phoneNumber,email,loginName,CURRENCY_code,salaryAmount,accountNumber,bankId,bankName
 1,John,a,Doe,JD,M,EN,+1234567890,john.doe@example.com,jdoe,INR,50000,1234567890123456,001,Example Bank
-2,Jane,a,Doe,JADF,EN,+0987654321,jane.doe@example.com,jdoe2,INR,60000,6543210987654321,002,Sample Bank
+2,Jane,a,Doe,JA,F,EN,+0987654321,jane.doe@example.com,jdoe2,INR,60000,6543210987654321,002,Sample Bank
 3,Bob,s,Smith,BS,M,EN,+1122334455,bob.smith@example.com,bsmith,INR,55000,1122334455667788,003,Test Bank
 4,Alice,s,Jones,AJ,F,EN,+5566778899,alice.jones@example.com,ajones,INR,65000,9988776655443322,004,Demo Bank
 5,Charlie,ds,Brown,CB,M,EN,+6677889900,charlie.brown@example.com,cbrown,INR,70000,8877665544332211,005,Mock Bank
